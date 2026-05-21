@@ -1,0 +1,25 @@
+# Environment and secrets (NEVER commit these)
+.env
+.env.*
+*.env.local
+*.env.production
+*.env.staging
+credentials.json
+secrets.json
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
